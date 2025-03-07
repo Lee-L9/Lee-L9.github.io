@@ -1,4 +1,17 @@
 
-h1{
+.head{
     color: #60f;
+}
+
+.aboutBox{
+    border-style: dotted;
+    border-width: 3px;
+    border-color: #6c7dcb;
+    border-radius: 5px;
+    background-color:#FAE5AF;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    font-size: 15px;
+    
 }
