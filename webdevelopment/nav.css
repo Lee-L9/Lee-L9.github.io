@@ -1,0 +1,20 @@
+.nav{
+    background-color:#616da5;
+    text-align: center;
+    height: 50px;
+}
+
+.nav > li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    border: none;
+}
+
+.nav > li > a{
+    color:#FAE5AF;
+}
+.nav > li > a:hover{
+    color:lightgray;
+}
