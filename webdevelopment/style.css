@@ -14,3 +14,16 @@
     padding: 5px;
     font-size: 15px;
 }
+
+.indent{
+    text-indent: 5%;
+}
+
+p::first-letter{
+    font-size: 150%;
+    color: #6c7dcb;
+}
+
+p{
+    border:  none;
+}
