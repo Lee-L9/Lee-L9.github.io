@@ -1,23 +1,27 @@
 <!--
-    Title: Web Page Template
-    Use: Template
+    Title:Project Page
+    Use: description of projects
     Author: LeeAnn Lin
     School/Term: University of Missouri - Columbia
-    Developed: 3/62025
-   Tested: 3/10/2025
+    Developed: 3/6/2025
+   Tested: 3/28/2025
 -->
+
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project Page</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
     </head>
 
     <body>
         <nav>
-            <ul class="nav">
+            <input type="checkbox" id="toggle">
+            <label id="hamburger" for="toggle">&#9776;</label>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="project.html">Project</a>
@@ -32,6 +36,64 @@
             </ul>
         </nav>
 
-        <footer>LeeAnn Lin Email:lalnnh@umsystem.edu Copyright @ 2025</footer>
+        <header>
+            <h1 class="center">Project</h1>
+        </header>
+
+        <main>
+            <div class="grid_proj">
+                <div class="proj1">
+                    <h3 class="center">Pet Adoption Application</h3>
+                    <img src="Resource/adopt.jpg" alt="Pet Adoption Image">
+                </div>
+                <div class="proj1_cont">
+                    <p class="indent">
+                        For this project, I created a model application that will display pictures and information about the list of pets that can be adopted. 
+                        Within the application, there is a homepage that has a list of the pets, each one includes a picture of the pet and general information. 
+                        By clicking on the box, it will lead to a separate page that contains detailed information about the pet, such as name, age, breed, 
+                        and their personality. With this application, I learned how to use the coding language, Swift, how to manage the application, and analyze 
+                        data. For this project, I wish I had a better understanding with the use of json files, and be able to make an user interaction page, 
+                        that will allow the user to either enter more pets into the list, or they can claim to adopt the pet online. I also wish I have a deeper 
+                        skill with swift to actually test out my application using iPhone or iPad instead of just having the application on a built-in model. 
+                    </p>
+                </div>
+                <div class="proj2">
+                    <h3 class="center">Finance Database Application</h3>
+                    <img src="Resource/finance.jpg" alt="Finance Database Image">
+                </div>
+                <div class="proj2_cont">
+                    <p class="indent">With this project, I created a database to keep track of user transactions. Within the database application, I connected 
+                        MySQL with python to build a basic application to ask for information. It will ask for the user’s ID and password, if the password is 
+                        incorrect the user will not be able to access the database that contains the information stored with the given user ID. With successful 
+                        access to the user ID, it will ask the user what they would like to do with the database, they can check the account information, make 
+                        transactions, create new accounts, and change their email address. I learned how to use basic SQL functions to create the database and 
+                        store information, how to connect python with MySQL to make a basic user interface, and project planning methods. Something I wish I 
+                        have done better is to create an UI application that will actually have user interaction by clicking on the options instead of just 
+                        displaying the information in the terminal.
+
+                    </p>
+                </div>
+                <div class="proj3">
+                    <h3 class="center">Develop[Her]</h3>
+                    <img src="Resource/dev.png" alt="Develop[Her] Image">
+                </div>
+                <div class="proj3_cont">
+                    <p class="indent"> 
+                        Develop[Her] is the first organization that is dedicated to women in computing at Mizzou. In the club, we hold weekly meetings that contain 
+                        several activities, such as beginner friendly tech tutorials, invite guest speakers, and make connections with peers.  I joined the club 
+                        in the fall of 2023, currently holding the position of Vice President for the club starting December, 2024 to present. As the Vice President 
+                        of the club, my main role is to assist the President, recruit new members for the club, and maintain the organization status with the university. 
+                        My major accomplishment is to connect with professors to recruit new members at the beginning of the semester and conduct several speeches 
+                        to talk about the club, what we do, and events we have throughout the year.
+                    </p>
+                </div>
+            </div>
+                
+        </main>
+        <footer>
+            <p class="center">LeeAnn Lin Email:lalnnh@umsystem.edu Copyright @ 2025</p>
+        </footer>
     </body>
+
+
 </html>

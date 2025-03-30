@@ -4,20 +4,25 @@ Title: About Page
 Use: introduce myself
 Author: LeeAnn Lin
 Date: 2/6/2025
-Tested: 3/10/2025
+Tested: 3/28/2025
 **********************************************
 -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>About Page</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
     </head>
+
+    
     <body>
         <nav>
-            <ul class="nav">
+            <input type="checkbox" id="toggle">
+            <label id="hamburger" for="toggle">&#9776;</label>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="project.html">Project</a>
@@ -31,37 +36,45 @@ Tested: 3/10/2025
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-    
-        <div class="wrapper_about">
-            <header class="header_about">
-                <h1 >LeeAnn Lin</h1>
-                <h3>University of Missouri - Columbia</h3>
-            </header>
 
-            <div class="picture_about">Picture later</div>
+        <header>
+            <h1 class="center">LeeAnn Lin</h1>
+        </header>
 
-            <div class="info_about indent">
-                <p>
-                    Hi, my name is LeeAnn Lin. I am currently a sophomore in College of Engineering at the University of Missouri - Columbia, 
-                    majoring in Computer Science with a minor in Mathematics. My expected graduation date is the summer of 2027. With my field of study, 
-                    I would like to apply my knowledge to create innovative and meaningful solutions that will make a real world impact. 
-                </p>
-                <p>
-                    I am passionate about continuously learning new skills, building projects, and collaborating with others to share ideas and grow together. 
-                    In my free time, I really enjoy crocheting, joining tech clubs, and expanding my knowledge through hands-on projects. My goal is to keep learning, 
-                    growing, and make a difference by applying my knowledge to real world challenges. 
-                </p>
-                <p>
-                    One of my <em>favorite</em> sayings is, 
-                    <blockquote><h3><em><b>“Hard work does not necessarily lead to success, but giving up will definitely lead to failure”.</b></em></h3></blockquote>
-                </p>
+        <main>
+            <div class="grid_about">
+                <div class="about1">
+                    <img src="Resource/my_pic.png" alt="This is me">
+                </div>
+                <div class="about2">
+                    <p class="indent">
+                        Hi, my name is LeeAnn Lin. I am currently a sophomore in College of Engineering at the University of Missouri - Columbia, 
+                        majoring in Computer Science with a minor in Mathematics. My expected graduation date is the summer of 2027. With my field of study, 
+                        I would like to apply my knowledge to create innovative and meaningful solutions that will make a real world impact. 
+                    </p>
+                    <p class="indent">
+                        I am passionate about continuously learning new skills, building projects, and collaborating with others to share ideas and grow together. 
+                        In my free time, I really enjoy crocheting, joining tech clubs, and expanding my knowledge through hands-on projects. My goal is to keep learning, 
+                        growing, and make a difference by applying my knowledge to real world challenges. 
+                    </p>
+                    <p class="indent">One of my <em>favorite</em> sayings is, </p>
+                        <blockquote><h3><em><b>“Hard work does not necessarily lead to success, but giving up will definitely lead to failure”.</b></em></h3></blockquote>
+                    
+                        
+                </div>
+                <div class="about3">
+                    <a href="Resource/resume.pdf">My Resume</a>
+                </div>
+                <div class="about4">
+                    <a href="#">Short Video</a>
+                </div>
+
             </div>
-            <div class="resume_about aboutBox"><a href="resume.pdf">My Resume</a></div>
-            <div class="video_about">link for video</div>
-            
-        </div>
-        
-        <footer class="center">LeeAnn Lin Email:lalnnh@umsystem.edu Copyright @ 2025</footer>
+           
+        </main>
+        <footer>
+            <p class="center">LeeAnn Lin Email:lalnnh@umsystem.edu Copyright @ 2025</p>
+        </footer>
 
-    </body>
+
 </html>

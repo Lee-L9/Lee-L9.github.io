@@ -1,24 +1,26 @@
 <!--
-    Title: Web Page Template
-    Use: Template
-    Author: LeeAnn Lin
-    School/Term: University of Missouri - Columbia
-    Developed: 3/10/2025
-    Tested: 3/10/2025
+Title: Reflection Page
+Use: reflection
+Author: LeeAnn Lin
+School/Term: University of Missouri - Columbia
+Developed: 2/8/2025
+Tested: 3/28/2025
 -->
-
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Reflection</title>
-        <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
     </head>
 
     <body>
         <nav>
-            <ul class="nav">
+            <input type="checkbox" id="toggle">
+            <label id="hamburger" for="toggle">&#9776;</label>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="project.html">Project</a>
@@ -33,43 +35,61 @@
             </ul>
         </nav>
 
-        <h1>Personal Reflection</h1>
-        <p class="indent">
-            Throughout my journey as a Computer Science student at the University of Missouri - Columbia, I have discovered a 
-            deep passion for using my computing skills to make practical applications. When I first started in the field, I 
-            had a really broad understanding of what computer scientists do, all I thought about was developing games for 
-            people to play. However, as I learn more about computer science, I understand that developing games is only a 
-            small part of the tech field. With each project I have done, I'm learning new skills and getting experience with 
-            coding. As I continue my studies, my goal is to build a career that blends my skills in computer science with my 
-            passion for solving problems. I believe that with a strong foundation in computer science and mathematics, I can 
-            take new challenges and push the boundaries of what technology can achieve. 
-        </p>
-        <p class="indent">
-            Through my various projects and club involvement, I have gained hands-on experience in software development, database 
-            management, and leadership. Working on the Pet Adoption Application allowed me to explore Swift and mobile app 
-            development, where I learned how to display and manage pet data efficiently. While I successfully built a functional 
-            model, I realized the importance of JSON files for data storage and retrieval. I also wish I had deeper expertise in 
-            Swift to enhance user interactions and deploy the app on real devices rather than just a built-in simulator. This 
-            project reinforced my interest in app development and inspired me to improve my knowledge of backend integration 
-            for interactive applications. 
-        </p>
-        <p class="indent">
-            Similarly, the Transaction Database Application expanded my understanding of MySQL and Python integration for real-world 
-            applications. Building a secure login system and enabling database interactions strengthened my grasp of SQL queries 
-            and database security practices. However, the limitation of displaying information in the terminal rather than a 
-            graphical user interface made me realize the importance of user experience (UX) design. In the future, I would like 
-            to improve this project by developing a more interactive UI, allowing users to easily manage their transactions 
-            through a web-based or desktop application. 
-        </p>
-        <p class="indent">
-            Beyond technical skills, my role in Develop[Her] has been an invaluable leadership experience. As Vice President, I 
-            have honed my abilities in public speaking, networking, and organizational management. Recruiting new members and 
-            maintaining the club’s presence within the university has allowed me to contribute to fostering an inclusive community 
-            for women in tech. This experience has strengthened my confidence in leadership and communication, skills that are 
-            essential in both academic and professional settings. Moving forward, I hope to continue mentoring and empowering 
-            others in the tech field while refining my technical and problem-solving skills through new projects and challenges.
-        </p>
+        <header>
+            <h1 class="center">Reflection</h1>
+        </header>
 
-        <footer>LeeAnn Lin Email:lalnnh@umsystem.edu Copyright @ 2025</footer>
+        <main>
+            <div class="grid_ref">
+                <div class="ref1">
+                    <p class="indent">
+                        Throughout my journey as a Computer Science student at the University of Missouri - Columbia, I have discovered 
+                        a deep passion for using my computing skills to create practical applications. When I first entered the field, 
+                        my understanding of computer science was quite broad, and I primarily associated it with developing games for 
+                        people to play. However, as I have progressed in my studies, I have come to realize that game development is just 
+                        a small part of the vast technology landscape. Computer science is a powerful tool that can be applied to numerous 
+                        industries, from artificial intelligence to cybersecurity, and I am eager to explore the many ways it can be used 
+                        to solve real-world problems.
+                    </p>
+                </div>
+
+                <div class="ref2">
+                    <p class="indent">
+                        With each project I undertake, I continue to expand my skill set and gain valuable experience in coding and software 
+                        development. Working on projects has not only strengthened my technical abilities but has also taught me the importance 
+                        of problem-solving, collaboration, and creativity. Whether it's analyzing music playlists, building applications, 
+                        or working with data, I find great satisfaction in turning ideas into functioning programs. These hands-on experiences 
+                        have reinforced my passion for technology and have given me confidence in my ability to tackle complex challenges.
+                    </p>
+                </div>
+
+                <div class="ref3">
+                    <p class="indent">
+                        As I continue my studies, my goal is to build a career that blends my skills in computer science with my passion for 
+                        problem-solving. I am particularly interested in fields such as artificial intelligence, software engineering, and 
+                        data science, where I can develop innovative solutions that make a meaningful impact. I believe that technology has 
+                        the power to improve lives, and I am excited to be part of a field that constantly evolves and pushes the limits of 
+                        what is possible.
+
+                    </p>
+                </div>
+
+                <div class="ref4">
+                    <p class="indent">
+                        With a strong foundation in computer science and mathematics, I am ready to take on new challenges and contribute to 
+                        the advancement of technology. I am committed to continuous learning, growing my expertise, and staying adaptable in 
+                        an ever-changing field. While hard work does not necessarily guarantee success, I firmly believe that perseverance and 
+                        dedication will open doors to new opportunities. I look forward to seeing where my journey in computer science takes 
+                        me and to making a difference through my work.
+
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p class="center">LeeAnn Lin Email:lalnnh@umsystem.edu Copyright @ 2025</p>
+        </footer>
     </body>
+
+
 </html>
