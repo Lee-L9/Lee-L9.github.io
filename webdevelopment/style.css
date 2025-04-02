@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Pacifico;
+    src: url("Pacifico/Pacifico-Regular.ttf");
+}
+
+blockquote, h1{
+    font-family:Pacifico, serif ;
+}
+
 body{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -210,7 +219,6 @@ body{
     }
 }
 
-
 /*-----Reflection Page-----*/
 @media screen and (min-width:760px){
     .grid_ref{
@@ -258,4 +266,26 @@ body{
     .ref4{
         grid-area: ref4;
     }
+}
+
+/*-----Print-----*/
+@media print{
+    *{
+        background: transparent !important;
+        color: #000 !important;
+    }
+    nav{
+        display: none;
+    }
+    @page{
+        margin: 1;
+    }
+    img{
+        width: 20%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
 }
