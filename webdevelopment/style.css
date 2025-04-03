@@ -24,7 +24,7 @@ footer{
     background-size: cover;
 }
 
-footer img:hover{
+footer p a img:hover{
     width: 25px;
 }
 
