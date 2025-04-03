@@ -24,6 +24,10 @@ footer{
     background-size: cover;
 }
 
+footer img:hover{
+    width: 20px;
+}
+
 /*-----Home Page-----*/
 @media screen and (min-width:760px) {
     img{
