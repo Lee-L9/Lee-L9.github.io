@@ -18,6 +18,12 @@ body{
     text-indent: 5%;
 }
 
+footer{
+    color:#fae5af;
+    background-image: url(images/footer_img.jpg);
+    background-size: cover;
+}
+
 /*-----Home Page-----*/
 @media screen and (min-width:760px) {
     img{
