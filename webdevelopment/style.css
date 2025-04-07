@@ -288,7 +288,7 @@ footer p a img:hover{
         display: none;
     }
     @page{
-        margin: 1;
+        margin: 1px;
     }
     img{
         width: 20%;
