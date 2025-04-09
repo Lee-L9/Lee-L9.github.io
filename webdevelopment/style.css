@@ -287,6 +287,13 @@ footer p a img:hover{
     nav{
         display: none;
     }
+    .about4{
+        display: none;
+    }
+    a[href="https://icons8.com/icons/set/email"] img,
+    a[href="https://icons8.com/icons/set/phone"] img {
+        display: none;
+    }
     @page{
         margin: 1px;
     }
