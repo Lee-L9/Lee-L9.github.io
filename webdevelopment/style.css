@@ -28,6 +28,28 @@ footer p a img:hover{
     width: 25px;
 }
 
+table th{
+    background-color: #616da5;
+    color:#fae5af
+}
+
+table caption{
+    font-family:Pacifico, serif ;
+    font-size: 30px;
+}
+
+table td{
+    border: 1px solid #616da5;
+    padding: 4px 8px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd){
+    background-color: #afbbf1;
+}
 /*-----Home Page-----*/
 @media screen and (min-width:760px) {
     img{
@@ -92,6 +114,11 @@ footer p a img:hover{
     footer{
         font-size: 20px;
     }
+    footer img{
+        width:30px;
+        height: auto;
+    }
+    
 }
 
 /*-----About Page-----*/
@@ -162,6 +189,13 @@ footer p a img:hover{
     footer{
         font-size: 20px;
     }
+    footer img{
+        width:30px;
+        height: auto;
+    }
+    table tr{
+        font-size: 20px;
+    }
 }
 
 /*-----Project Page-----*/
@@ -227,6 +261,13 @@ footer p a img:hover{
     .proj3_cont{
         grid-area: proj3_cont;
     }
+    footer{
+        font-size: 20px;
+    }
+    footer img{
+        width:30px;
+        height: auto;
+    }
 }
 
 /*-----Reflection Page-----*/
@@ -275,6 +316,13 @@ footer p a img:hover{
     }
     .ref4{
         grid-area: ref4;
+    }
+    footer{
+        font-size: 20px;
+    }
+    footer img{
+        width:30px;
+        height: auto;
     }
 }
 
