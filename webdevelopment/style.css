@@ -50,6 +50,7 @@ table{
 table tr:nth-child(odd){
     background-color: #afbbf1;
 }
+
 /*-----Home Page-----*/
 @media screen and (min-width:760px) {
     img{
@@ -353,4 +354,32 @@ table tr:nth-child(odd){
         margin-right: auto;
     }
    
+}
+
+/*-----Contact Page-----*/
+.form_c{
+    background-color: #616da5;
+    padding: 2rem;
+    width: 40%;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+input{
+    width: 100%;
+}
+
+@media screen and (min-width:760px){
+    form label{
+        display: contents;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:759px){
+    form label{
+        display: contents;
+        font-size: 25px;
+    }
+    
 }

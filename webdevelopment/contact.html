@@ -1,0 +1,80 @@
+<!--
+Title: Contact Page
+Use: Contact Information
+Author: LeeAnn Lin
+School/Term: University of Missouri - Columbia
+Developed: 4/19/2025
+Tested: 4/19/2025
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+
+        <!--favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+
+    <body>
+        <nav>
+            <input type="checkbox" id="toggle">
+            <label id="hamburger" for="toggle">&#9776;</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a>
+                    <ul>
+                        <li><a href="project.html#proj1">Pet Adopation Application</a></li>
+                        <li><a href="project.html#proj2">Finance Database Application</a></li>
+                        <li><a href="project.html#proj3">Develop[Her]</a></li>
+                    </ul>
+                </li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1 class="center">Contact</h1>
+        </header>
+
+        <main>
+            <div class="form_c">
+                <form action="mailto:lalnnh@missouri.edu"?Subject=Portfolio%20Website%20Contact>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First name" required><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" placeholder="Message here" required><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p class="center">
+                Copyright @ 2025 LeeAnn Lin
+            </p>                
+            <p class = "center">
+                <a href="mailto:lalnnh@umsystem.edu">
+                    <img title="email" src="images/email_icon.png" width="15">
+                </a>
+                Email:lalnnh@umsystem.edu
+            </p>
+            <p class = "center">
+                <a href="tel:+18888888888">
+                    <img title="phone" src="images/phone_icon.png" width="15">
+                </a>
+                1+888-888-8888
+            </p>
+        </footer>
+    </body>
+
+
+</html>
